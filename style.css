@@ -183,7 +183,10 @@
         color: white;
         padding-bottom: 10px;
     }
-    footer i {
+    .fa-utensils {
+        color: white;
+    }
+    .fa-handshake-angle {
         color: white;
     }
 }
