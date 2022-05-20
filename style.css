@@ -14,6 +14,7 @@
         justify-content: center;
         align-items: center;
         box-shadow: 0px 2px 5px rgb(212, 212, 212);
+        padding-top: 4px;
     }
     .logo {
         height: 30px;
@@ -107,7 +108,10 @@
 
 
     /*==================================RESTAURANTS===========================  */
-
+    a {
+        color: unset;
+        text-decoration: none;
+    }
     .restaurants {
         background-color: rgba(128, 128, 128, 0.25);
         padding-bottom: 30px;
@@ -163,6 +167,88 @@
         padding-top: 0;
     }
 
+    /*==================================Page_menu_1===========================  */
+
+    .fa-arrow-left {
+        color: rgb(45, 45, 45);
+        margin-left: -80px;
+        margin-bottom: 2px;
+        font-size: 20px;
+    }
+    .background_image {
+        height: 500px;
+        z-index: 0;
+    }
+    .la_palette_du_gout {
+        max-width: 100%;
+        height: auto;
+        z-index: 0;
+    }
+    .menu {
+        border-radius: 30px 30px 0px 0px;
+        background-color: rgb(230, 229, 229);
+        margin-top: -280px;
+        z-index: 1;
+    }
+    .title-heart {
+        margin-bottom: 15px;
+    }
+    .button_commander {
+        text-align: center;
+    }
+    section button {
+        margin-top: 15px;
+        margin-bottom: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 35px;
+        padding-right: 35px;
+        color: white;
+        background-color: #9356DC;
+        border-radius: 30px;
+        border-style: none;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    }
+    h3 {
+        margin-left: 15px;
+        margin-bottom: 0;
+    }
+    .plat {
+        border-radius: 20px;
+        background-color: white;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 15px;
+        height: 80px;
+    }
+    .plat h4 {
+        margin-left: 15px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .complement {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0;
+        margin-left: 15px;
+    }
+    .complement p {
+        margin-top: 5px;
+        word-break: normal;
+        text-overflow: ellipsis;
+    }
+    .prix {
+        margin-right: 20px;
+    }
+    .categorie {
+        margin-bottom: 30px;
+    }
+
+
+
+
+
     /*==================================FOOTER===========================  */
     footer {
         background-color: rgb(49, 49, 49);
@@ -183,10 +269,12 @@
         color: white;
         padding-bottom: 10px;
     }
-    .fa-utensils {
-        color: white;
+    footer i {
+        width: 10px;   
     }
-    .fa-handshake-angle {
+    .logo-footer {
         color: white;
+        font-size: 12px;
+        margin-right: 15px;
     }
 }
