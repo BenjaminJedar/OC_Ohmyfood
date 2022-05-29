@@ -3,7 +3,6 @@
         font-family: roboto;
         src: url("font/Roboto/Roboto-Regular.ttf");
     }
-
     body {
         height: 100%;
         width: 100%;
@@ -19,7 +18,6 @@
         box-shadow: 0px 2px 5px rgb(212, 212, 212);
         padding-top: 4px;
     }
-
     .logo {
         height: 30px;
         margin-top: 5px;
@@ -32,16 +30,13 @@
         align-items: center;
         background-color: rgba(128, 128, 128, 0.1);
     }
-
     .location i {
         color: rgb(108, 108, 108);
         margin-right: 10px;
     }
-
     .location p {
         color: rgb(108, 108, 108);
     }
-
     span {
         font-weight: bold;
     }
@@ -50,12 +45,6 @@
     .introduction {
         box-shadow: 0px -1px 2px rgba(173, 173, 173, 0.1);
         background-color: rgba(173, 173, 173, 0.1);
-    }
-
-    .introduction h2 {
-        padding-top: 20px;
-        margin-top: 0;
-        text-align: center;
     }
 
     .introduction p {
@@ -84,13 +73,11 @@
         margin-top: 25px;
         margin-left: 15px;
     }
-
     .conteneur {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-
     .number {
         border-radius: 30px;
         background-color: #9356DC;
@@ -101,7 +88,6 @@
         color: white;
         margin-right: -15px;
     }
-
     .caption {
         padding-left: 35px;
         padding-right: 40px;
@@ -111,7 +97,6 @@
         width: 65%;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
     }
-
     .degustez .caption {
         background-color: #9256dc2a;
     }
@@ -120,7 +105,6 @@
         margin-right: 20px;
         color: gray;
     }
-
     .fa-store {
         color: #9356DC;
     }
@@ -131,22 +115,18 @@
         color: unset;
         text-decoration: none;
     }
-
     .restaurants {
         background-color: rgba(128, 128, 128, 0.25);
         padding-bottom: 30px;
     }
-
     .restaurants h2 {
         padding-top: 20px;
         margin-left: 20px;
     }
-
     .cards {
         display: flex;
         flex-direction: column;
     }
-
     .card {
         display: flex;
         flex-direction: column;
@@ -159,7 +139,6 @@
         margin-left: 20px;
         margin-bottom: 20px;
     }
-
     .title {
         display: flex;
         justify-content: space-between;
@@ -176,12 +155,10 @@
         margin-bottom: -15px;
         margin-right: 25px;
     }
-
     .img_restaurant {
         max-width: 100%;
         height: auto;
     }
-
     .card_image {
         overflow: hidden;
         object-fit: cover;
@@ -320,7 +297,6 @@
         margin-top: 15px;
         padding-left: 20px;
     }
-
     footer li {
         color: white;
         padding-bottom: 10px;
