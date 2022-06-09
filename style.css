@@ -1065,12 +1065,16 @@
         margin-right: 0;
         transform-origin: right 50%;
         transform: translateX(0%);
-        transition: transform 600ms cubic-bezier(.32, 0, .07, 1);
     }
 
     .logo_ajoute {
         transform: translateX(100%);
-        transition: transform 400ms cubic-bezier(.32, 0, .07, 1);
+        transition: all 400ms ease-in-out ;
+        background-color: #99e2d0;
+    }
+
+    .plat:hover .logo_ajout_plat {
+        transform: rotate(0deg);
     }
 
     .logo_ajout_plat {
@@ -1078,6 +1082,8 @@
         height: 35px;
         margin-left: 25px;
         margin-right: 25px;
+        transform: rotate(-360deg);
+        transition: all 500ms ease-in-out;
     }
 
     .plat_carte {
