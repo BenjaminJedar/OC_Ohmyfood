@@ -1046,7 +1046,6 @@
 
     .plat {
         display: flex;
-        justify-content: space-between;
         height: 80px;
         border-radius: 15px;
         background-color: white;
@@ -1092,6 +1091,9 @@
 
     .plat_carte {
         width: 100%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
     }
 
     .descript_plat {
