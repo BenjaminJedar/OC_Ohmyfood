@@ -1056,38 +1056,23 @@
         overflow: hidden;
     }
 
-    .plat:hover .logo_ajoute {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #99e2d0;
-        margin-right: 0;
-        transform-origin: right 50%;
-        transform: translateX(0%);
-    }
-
-    .logo_ajoute {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transform: translateX(100%);
-        transition: all 400ms ease-in-out ;
-        background-color: #99e2d0;
-    }
-
-    .plat:hover .logo_ajout_plat {
-        transform: rotate(0deg);
-        transition: transform 500ms ease-in-out;
-    }
-
-    .logo_ajout_plat {
-        filter: invert(100%);
+    .plat:hover ::after {
+        content: "";
+        background-image: url(images/logo/circle-check-solid.svg);
         height: 35px;
-        margin-left: 25px;
-        margin-right: 25px;
-        transform: rotate(-360deg);
-        transform-origin: 50% 50%;
+        float: right;
+
+/*         background-color: #99e2d0;
+ */
+
+/*         filter: invert(100%); */
+
     }
+
+/*     .logo_ajoute ::after {
+        content:url(images/logo/circle-check-solid.svg);
+
+    } */
 
     .plat_carte {
         width: 100%;
@@ -1116,8 +1101,6 @@
     .complement {
         display: flex;
         justify-content: space-between;
-        text-overflow: ellipsis;
-        overflow: hidden;
         white-space: nowrap;
         margin-top: 6px;
         margin-left: 15px;
@@ -1157,8 +1140,12 @@
         height: 20px;
         filter: invert(100%);
         text-align: center;
-        /*         margin-left: 45.5%;
- */
+    }
+
+    .ohmyfood_footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     footer ul {
