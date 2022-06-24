@@ -1163,8 +1163,8 @@
         transform-origin: 50% 50%;
     }
 
-    .plat:hover .complement {
-        width: calc(100% - 23%);
+    .plat:hover .plat_carte {
+        width: calc(100% - 25%);
         transition: width 400ms ease-in-out;
     }
 
@@ -1176,8 +1176,6 @@
         white-space: nowrap;
         margin-top: 6px;
         margin-left: 15px;
-        width: 100%;
-        transition: width 400ms ease-in-out;
     }
 
     .plat_carte {
@@ -1186,6 +1184,7 @@
         text-overflow: ellipsis;
         overflow: hidden;
         white-space: nowrap;
+        transition: width 400ms ease-in-out;
     }
 
     .descript_plat {
