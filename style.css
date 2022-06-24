@@ -1163,6 +1163,23 @@
         transform-origin: 50% 50%;
     }
 
+    .plat:hover .complement {
+        width: calc(100% - 23%);
+        transition: width 400ms ease-in-out;
+    }
+
+    .complement {
+        display: flex;
+        justify-content: space-between;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        margin-top: 6px;
+        margin-left: 15px;
+        width: 100%;
+        transition: width 400ms ease-in-out;
+    }
+
     .plat_carte {
         z-index: 1;
         width: 100%;
@@ -1187,16 +1204,6 @@
         font-size: 1.2em;
     }
 
-
-    .complement {
-        display: flex;
-        justify-content: space-between;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        white-space: nowrap;
-        margin-top: 6px;
-        margin-left: 15px;
-    }
 
     .prix {
         margin-top: 5px;
