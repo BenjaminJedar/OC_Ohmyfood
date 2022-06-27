@@ -307,13 +307,12 @@
 
     .heart-empty {
         z-index: 1;
-        margin-top: -1px;
-
+        margin-top: 25px;
     }
 
     .heart-full {
         position: absolute;
-        margin-top: -1px;
+        margin-top: 25px;
         top: 0;
         bottom: 0;
         left: 0;
