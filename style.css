@@ -141,17 +141,6 @@
         text-align: center;
     }
 
-    .introduction button {
-        margin-top: 15px;
-        margin-bottom: 40px;
-        padding: 10px;
-        color: white;
-        background-color: #9356DC;
-        border-radius: 30px;
-        border-style: none;
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-    }
-
     /*==================================FONCTIONNEMENT========================  */
     .fonctionnement h2 {
         margin-top: 25px;
@@ -376,7 +365,7 @@
         text-align: center;
     }
 
-    section button {
+    .button_commander .button {
         margin-top: 30px;
         margin-bottom: 60px;
         padding-top: 10px;
@@ -388,14 +377,7 @@
         border-radius: 30px;
         border-style: none;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-        transform: scale(1);
-        transition-property: transform;
-        transition-duration: 0.5s;
         font-size: 11px;
-    }
-
-    section button :hover {
-        transform: scale(1.15);
     }
 
     .categorie h3 {
@@ -419,52 +401,52 @@
 
     .article_1 {
         animation: apparition 1s linear 300ms;
-        animation-fill-mode: forwards;  
+        animation-fill-mode: forwards;
     }
 
     .article_2 {
         animation: apparition 1s linear 500ms;
-        animation-fill-mode: forwards;  
+        animation-fill-mode: forwards;
     }
 
     .article_3 {
         animation: apparition 1s linear 700ms;
-        animation-fill-mode: forwards;  
+        animation-fill-mode: forwards;
     }
 
     .article_4 {
         animation: apparition 1s linear 900ms;
-        animation-fill-mode: forwards;  
+        animation-fill-mode: forwards;
     }
 
     .article_5 {
         animation: apparition 1s linear 1100ms;
-        animation-fill-mode: forwards;  
+        animation-fill-mode: forwards;
     }
 
     .article_6 {
         animation: apparition 1s linear 1300ms;
-        animation-fill-mode: forwards;  
+        animation-fill-mode: forwards;
     }
 
     .article_7 {
         animation: apparition 1s linear 1500ms;
-        animation-fill-mode: forwards;  
+        animation-fill-mode: forwards;
     }
 
     .article_8 {
         animation: apparition 1s linear 1700ms;
-        animation-fill-mode: forwards;  
+        animation-fill-mode: forwards;
     }
 
     .article_9 {
         animation: apparition 1s linear 1900ms;
-        animation-fill-mode: forwards;  
+        animation-fill-mode: forwards;
     }
 
     .article_10 {
         animation: apparition 1s linear 2100ms;
-        animation-fill-mode: forwards;  
+        animation-fill-mode: forwards;
     }
 
     @keyframes apparition {
@@ -497,7 +479,6 @@
 
     .prix {
         margin-top: 5px;
-        word-break: norml;
         font-size: 0.95em;
         color: rgb(63, 63, 63);
         margin-left: 20px;
@@ -505,7 +486,6 @@
 
     .description {
         margin-top: 5px;
-        word-break: norml;
         text-overflow: ellipsis;
         overflow: hidden;
         white-space: nowrap;
@@ -699,12 +679,12 @@
         text-align: center;
     }
 
-    .introduction button {
+    .button_explore .button {
         margin-top: 15px;
         margin-bottom: 40px;
         padding: 10px;
         color: white;
-        background-color: #9356DC;
+        background: linear-gradient(to bottom right, #FF79DA, #9356DC);
         border-radius: 30px;
         border-style: none;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
@@ -923,25 +903,19 @@
         text-align: center;
     }
 
-    section button {
-        margin-top: 15px;
-        margin-bottom: 40px;
+    .button_commander .button {
+        margin-top: 30px;
+        margin-bottom: 60px;
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 35px;
         padding-right: 35px;
         color: white;
-        background-color: #9356DC;
+        background: linear-gradient(to bottom right, #FF79DA, #9356DC);
         border-radius: 30px;
         border-style: none;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-        transform: scale(1);
-        transition-property: transform;
-        transition-duration: 0.5s;
-    }
-
-    section button :hover {
-        transform: scale(1.15);
+        font-size: 11px;
     }
 
     .categorie h3 {
@@ -966,47 +940,47 @@
 
     .article_1 {
         animation: apparition 1s linear 300ms;
-        animation-fill-mode: forwards;  
+        animation-fill-mode: forwards;
     }
 
     .article_2 {
         animation: apparition 1s linear 500ms;
-        animation-fill-mode: forwards;  
+        animation-fill-mode: forwards;
     }
 
     .article_3 {
         animation: apparition 1s linear 700ms;
-        animation-fill-mode: forwards;  
+        animation-fill-mode: forwards;
     }
 
     .article_4 {
         animation: apparition 1s linear 900ms;
-        animation-fill-mode: forwards;  
+        animation-fill-mode: forwards;
     }
 
     .article_5 {
         animation: apparition 1s linear 1100ms;
-        animation-fill-mode: forwards;  
+        animation-fill-mode: forwards;
     }
 
     .article_6 {
         animation: apparition 1s linear 1300ms;
-        animation-fill-mode: forwards;  
+        animation-fill-mode: forwards;
     }
 
     .article_7 {
         animation: apparition 1s linear 1500ms;
-        animation-fill-mode: forwards;  
+        animation-fill-mode: forwards;
     }
 
     .article_8 {
         animation: apparition 1s linear 1700ms;
-        animation-fill-mode: forwards;  
+        animation-fill-mode: forwards;
     }
 
     .article_9 {
         animation: apparition 1s linear 1900ms;
-        animation-fill-mode: forwards;  
+        animation-fill-mode: forwards;
     }
 
     @keyframes apparition {
@@ -1038,7 +1012,6 @@
 
     .prix {
         margin-top: 5px;
-        word-break: norml;
         font-size: 0.95em;
         color: rgb(63, 63, 63);
         margin-left: 20px;
@@ -1046,7 +1019,6 @@
 
     .description {
         margin-top: 5px;
-        word-break: norml;
         text-overflow: ellipsis;
         overflow: hidden;
         white-space: nowrap;
@@ -1237,16 +1209,29 @@
         text-align: center;
     }
 
-    .introduction button {
-        margin-top: 15px;
-        margin-bottom: 40px;
-        padding: 10px;
+    .button_explore .button {
+        z-index: 1;
+        margin-top: 30px;
+        margin-bottom: 60px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 35px;
+        padding-right: 35px;
         color: white;
-        background-color: #9356DC;
         border-radius: 30px;
         border-style: none;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+        background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+        font-size: 11px;
     }
+
+
+    .button_explore .button:hover {
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+        background: linear-gradient(to bottom right, #ffa5e6, #9e76d0);
+    }
+
+
 
     /*==================================FONCTIONNEMENT========================  */
     .fonctionnement h2 {
@@ -1466,27 +1451,26 @@
         text-align: center;
     }
 
-    section button {
+    .button_commander .button {
+        z-index: 1;
         margin-top: 30px;
-        margin-bottom: 40px;
+        margin-bottom: 60px;
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 35px;
         padding-right: 35px;
         color: white;
-        background-color: #9356DC;
         border-radius: 30px;
         border-style: none;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-        transition: background 500ms ease-in-out;
+        background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+        font-size: 11px;
     }
 
-    section button:hover {
-        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6);
-        transition: background 300ms ease-in-out;
-        background-color: #b185e8;
+    .button_commander .button:hover {
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+        background: linear-gradient(to bottom right, #ffa5e6, #9e76d0);
     }
-
 
     .categorie h3 {
         margin-left: 25px;
@@ -1593,7 +1577,6 @@
 
     .prix {
         margin-top: 5px;
-        word-break: norml;
         font-size: 0.95em;
         color: rgb(63, 63, 63);
         margin-left: 20px;
