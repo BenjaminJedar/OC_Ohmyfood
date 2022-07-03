@@ -325,11 +325,14 @@
     }
 
     /*==================================Page_menu===========================  */
-
+    header {
+        position: relative;
+    }
     .fa-arrow-left {
+        position: absolute;
         color: rgb(45, 45, 45);
-        margin-left: -80px;
-        margin-bottom: 2px;
+        left: 8px;
+        bottom: 10px;
         font-size: 20px;
     }
 
@@ -864,10 +867,14 @@
 
     /*==================================Page_menu===========================  */
 
+    header {
+        position: relative;
+    }
     .fa-arrow-left {
+        position: absolute;
         color: rgb(45, 45, 45);
-        margin-left: -80px;
-        margin-bottom: 2px;
+        left: 8px;
+        bottom: 10px;
         font-size: 20px;
     }
 
@@ -1408,9 +1415,14 @@
 
     /*==================================Page_menu===========================  */
 
+    header {
+        position: relative;
+    }
     .fa-arrow-left {
+        position: absolute;
         color: rgb(45, 45, 45);
-        margin-bottom: 2px;
+        left: 8px;
+        bottom: 10px;
         font-size: 20px;
     }
 
