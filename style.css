@@ -50,7 +50,7 @@
     .loading_spiner::after {
         content: "";
         position: absolute;
-        top: -6px;
+        top: -6px;  
         left: -6px;
         right: -6px;
         bottom: -6px;
@@ -148,6 +148,11 @@
         border-radius: 30px;
         border-style: none;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    }
+
+    .button_explore .button:hover {
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+        background: linear-gradient(to bottom right, #ffa5e6, #9e76d0);
     }
 
     /*==================================FONCTIONNEMENT========================  */
@@ -343,6 +348,10 @@
         left: 8px;
         bottom: 10px;
         font-size: 20px;
+    }   
+
+    .fa-arrow-left:hover {
+        color: #9356DC;
     }
 
     .nom_restaurant {
@@ -390,6 +399,11 @@
         border-style: none;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
         font-size: 11px;
+    }
+
+    .button_commander .button:hover {
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+        background: linear-gradient(to bottom right, #ffa5e6, #9e76d0);
     }
 
     .categorie h3 {
@@ -887,6 +901,10 @@
         font-size: 20px;
     }
 
+    .fa-arrow-left:hover {
+        color: #9356DC;
+    }
+
     .nom_restaurant {
         margin-left: 25px;
         font-family: 'shrikhand';
@@ -932,6 +950,11 @@
         border-style: none;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
         font-size: 11px;
+    }
+
+    .button_commander .button:hover {
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+        background: linear-gradient(to bottom right, #ffa5e6, #9e76d0);
     }
 
     .categorie h3 {
